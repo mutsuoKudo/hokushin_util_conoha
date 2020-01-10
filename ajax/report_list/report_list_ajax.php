@@ -173,7 +173,7 @@ print('<th width="60px">' . $next5 . '</th>');
      $report_name = $row['shain_cd'] .'-'.  $prev6 . '.pdf';
      $shain_cd = $row['shain_cd'];
      if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     } 
@@ -181,7 +181,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $prev5 . '.pdf';  
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -189,7 +189,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $prev4 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -197,7 +197,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $prev3 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -205,7 +205,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $prev2 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -213,7 +213,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $prev1 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -221,7 +221,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $today . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -229,7 +229,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $next1 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -237,7 +237,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $next2 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -245,7 +245,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $next3 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -253,7 +253,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $next4 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }
@@ -261,7 +261,7 @@ print('<th width="60px">' . $next5 . '</th>');
     $report_name = $row['shain_cd'] .'-'.  $next5 . '.pdf';
     $shain_cd = $row['shain_cd'];
     if(file_exists('report/' . $row['shain_cd'] . '/' . $report_name)){
-    print("<td class='bg-edit'><a href='/hokushin_util/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
+    print("<td class='bg-edit'><a href='/hokushin_uti_conoha/ajax/report_list/report/$shain_cd/$report_name' target='_blank'>○</a></td>");
     }else{
         print("<td>-</td>");
     }

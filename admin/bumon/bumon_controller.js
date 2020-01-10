@@ -16,6 +16,7 @@ app.controller('MainCtrl', function($scope, $resource, $window) {
 });
 
 app.controller('DetailCtrl', function($scope, $window) {
+
     $scope.update = function() {
         $scope.bumon.$save(function() {
             alert("更新しました。");
